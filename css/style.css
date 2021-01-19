@@ -1,0 +1,140 @@
+
+/* ISTRUZIONI DI PAGINA GENERICHE */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgrey;
+}
+
+header{
+  padding: 10px 20px;
+  background-color: white;
+}
+
+main{
+  width: 80%;
+  margin: 30px auto;
+  margin-top: 35px;
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+/* ISTRUZIONI HEADER */
+.coontainer{
+  height: 50px;
+}
+
+.logo_img{
+  height: 50px;
+}
+
+#brand_title{
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  vertical-align: top;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ISTRUZIONI NAV */
+
+nav{
+  margin-top: 60px;
+  padding: 20px 0px;
+  border-bottom: 1px solid grey;
+}
+
+
+nav a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#cta_uno{
+  color: white;
+  background-color: #4e71ba;
+  margin-left: 35px;
+}
+
+#cta_due{
+  color: grey;
+  border: 1px solid grey;
+}
+
+
+/* ISTRUZIONI GENERICHE SECTION */
+section{
+  margin: 35px 35px;
+}
+
+.section_title{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+section ul{
+  list-style: none;
+  margin-top: 10px;
+}
+
+section ul li{
+  margin: 20px 0px;
+}
+
+.liststyle{
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+.check{
+  color: green;
+  border-color: green;
+}
+
+.cross{
+  color: darkred;
+  border-color: darkred;
+}
+/* ISTRUZIONI GENERICHE PER LE LABEL */
+
+.label{
+  color:white;
+  padding: 5px 10px;
+  margin-left: 20px;
+  border-radius: 25px;
+}
+
+.editorial{
+  background: #4e71ba;
+}
+
+.qone{
+  background-color: purple;
+}
+
+.recruiting{
+  background-color: #03bb85;
+}
+
+.webside{
+  background-color: orange;
+}
+
+.sales{
+  background-color: #a2a303;
+}
+
+.mobile{
+  background-color: #641c34;
+}
